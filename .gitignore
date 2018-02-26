@@ -1,2 +1,14 @@
 /.directory
 /build/*
+
+CMakeCache.txt
+CMakeFiles/
+Makefile
+bin2c
+cmake_install.cmake
+example1
+example2
+icons/
+libnanogui.so
+nanogui_resources.cpp
+nanogui_resources.h
