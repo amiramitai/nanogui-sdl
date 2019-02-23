@@ -1,3 +1,13 @@
+# OSX COMPILATION
+brew install sdl2
+
+git clone git@github.com:amiramitai/nanogui-sdl.git --recursive
+cd nanogui-sdl
+mkdir build
+cd build
+cmake .. -DNANOGUI_GL_IMPLEMENTATION=gl3
+make -j 4
+
 # NanoGUI-SDL
 
 NanoGUI-SDL is a SDL port for https://github.com/wjakob/nanogui
