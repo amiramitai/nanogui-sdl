@@ -13,7 +13,7 @@
 #ifndef __NGSDL_OPENGL_INCLUDE_H__
 #define __NGSDL_OPENGL_INCLUDE_H__
 
-#ifdef NANOGUI_LINUX
+#if defined(NANOGUI_LINUX) || defined(NANOGUI_OSX)
     #include <SDL2/SDL_opengl.h>
     #include <SDL2/SDL_opengl_glext.h>
 #else

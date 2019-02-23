@@ -15,7 +15,7 @@
 #endif
 #include <nanogui/opengl.h>
 
-#ifdef NANOGUI_LINUX
+#if defined(NANOGUI_LINUX) || defined(NANOGUI_OSX)
     #include <SDL2/SDL.h>
 #else
     #include <SDL/SDL.h>
